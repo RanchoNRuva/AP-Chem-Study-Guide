@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 7: Thermodynamics - AP Chemistry Study Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid #3498db;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #bdc3c7;
+        }
+
+        h3 {
+            color: #7f8c8d;
+        }
+
+        .formula {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+            font-family: monospace;
+        }
+
+        ul,
+        ol {
+            padding-left: 2rem;
+        }
+
+        .important-note {
+            background-color: #f1c40f20;
+            padding: 1rem;
+            border-left: 4px solid #f1c40f;
+            margin: 1rem 0;
+        }
+
+        .back-home {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+
+        .back-home:hover {
+            background-color: #2980b9;
+        }
+
+        .top-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .top-button:hover {
+            background-color: #555;
+        }
+
+        .example {
+            background-color: #e8f6fe;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+
+        .equation {
+            text-align: center;
+            font-weight: bold;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#concepts">Basic Concepts</a>
+        <a href="#laws">Laws</a>
+        <a href="#entropy">Entropy</a>
+        <a href="#free-energy">Free Energy</a>
+        <a href="#equilibrium">Equilibrium</a>
+    </nav>
+
+    <div class="content">
+        <a href="index.html" class="back-home">← Back to Main Page</a>
+
+        <h1>Unit 7: Thermodynamics</h1>
+
+        <section id="concepts">
+            <h2>Section 1: Fundamental Concepts</h2>
+
+            <h3>Systems and Surroundings</h3>
+            <div class="example">
+                <h4>System</h4>
+                <ul>
+                    <li>Part of universe being studied</li>
+                    <li>Area where reaction/process occurs</li>
+                    <li>Can be open, closed, or isolated</li>
+                </ul>
+
+                <h4>Surroundings</h4>
+                <ul>
+                    <li>Everything outside the system</li>
+                    <li>Where energy/heat can be transferred to/from</li>
+                    <li>Rest of universe besides system</li>
+                </ul>
+
+                <h4>Types of Systems</h4>
+                <ul>
+                    <li>Open: Exchange matter and energy</li>
+                    <li>Closed: Exchange only energy</li>
+                    <li>Isolated: No exchange of matter or energy</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="laws">
+            <h2>Section 2: Laws of Thermodynamics</h2>
+
+            <div class="important-note">
+                <h4>First Law</h4>
+                <ul>
+                    <li>Energy cannot be created or destroyed</li>
+                    <li>ΔE = q + w</li>
+                    <li>Internal energy change = heat + work</li>
+                    <li>Conservation of energy</li>
+                </ul>
+
+                <h4>Second Law</h4>
+                <ul>
+                    <li>Entropy of universe always increases</li>
+                    <li>ΔSuniv = ΔSsys + ΔSsurr > 0 for spontaneous processes</li>
+                    <li>Heat flows from hot to cold spontaneously</li>
+                    <li>Defines direction of processes</li>
+                </ul>
+
+                <h4>Third Law</h4>
+                <ul>
+                    <li>Entropy of perfect crystal at 0 K = 0</li>
+                    <li>Provides reference point for entropy</li>
+                    <li>Perfect order at absolute zero</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="entropy">
+            <h2>Section 3: Entropy</h2>
+
+            <h3>Microscopic Definition</h3>
+            <div class="example">
+                <h4>Microstates</h4>
+                <ul>
+                    <li>Possible arrangements of particles</li>
+                    <li>More microstates = higher entropy</li>
+                    <li>S = k ln(W)</li>
+                    <li>W = number of microstates</li>
+                </ul>
+
+                <h4>Factors Increasing Entropy</h4>
+                <ul>
+                    <li>Increasing temperature</li>
+                    <li>Phase changes to less ordered states</li>
+                    <li>Increasing volume</li>
+                    <li>Increasing number of particles</li>
+                    <li>Breaking bonds/increasing disorder</li>
+                </ul>
+            </div>
+
+            <h3>Entropy Changes</h3>
+            <div class="formula">
+                <h4>System Entropy (ΔSsys)</h4>
+                <ul>
+                    <li>Change in system disorder</li>
+                    <li>Calculated from standard entropies</li>
+                    <li>ΔS°rxn = ΣnS°(products) - ΣnS°(reactants)</li>
+                </ul>
+
+                <h4>Surroundings Entropy (ΔSsurr)</h4>
+                <ul>
+                    <li>Related to heat exchange</li>
+                    <li>ΔSsurr = -ΔH/T</li>
+                    <li>Temperature dependent</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="free-energy">
+            <h2>Section 4: Spontaneity and Free Energy</h2>
+
+            <h3>Gibbs Free Energy</h3>
+            <div class="important-note">
+                <h4>Definition</h4>
+                <ul>
+                    <li>G = H - TS</li>
+                    <li>ΔG = ΔH - TΔS</li>
+                    <li>Combines enthalpy and entropy effects</li>
+                </ul>
+
+                <h4>Spontaneity Criteria</h4>
+                <ul>
+                    <li>ΔG < 0: Spontaneous</li>
+                    <li>ΔG = 0: Equilibrium</li>
+                    <li>ΔG > 0: Non-spontaneous</li>
+                </ul>
+            </div>
+
+            <h3>Temperature Effects</h3>
+            <div class="example">
+                <h4>Enthalpy-Entropy Interplay</h4>
+                <ul>
+                    <li>Low T: ΔH dominates</li>
+                    <li>High T: TΔS dominates</li>
+                    <li>Transition temperature where ΔG = 0</li>
+                </ul>
+
+                <h4>Predicting Spontaneity</h4>
+                <table>
+                    <tr>
+                        <th>ΔH</th>
+                        <th>ΔS</th>
+                        <th>Spontaneous?</th>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>+</td>
+                        <td>Always</td>
+                    </tr>
+                    <tr>
+                        <td>+</td>
+                        <td>-</td>
+                        <td>Never</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>At low T</td>
+                    </tr>
+                    <tr>
+                        <td>+</td>
+                        <td>+</td>
+                        <td>At high T</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="equilibrium">
+            <h2>Section 5: Equilibrium and Free Energy</h2>
+
+            <h3>Relationship to Equilibrium</h3>
+            <div class="formula">
+                <h4>Standard Free Energy</h4>
+                <ul>
+                    <li>ΔG° related to equilibrium constant</li>
+                    <li>ΔG° = -RT ln(K)</li>
+                    <li>K = equilibrium constant</li>
+                </ul>
+
+                <h4>Reaction Progress</h4>
+                <ul>
+                    <li>ΔG = ΔG° + RT ln(Q)</li>
+                    <li>Q = reaction quotient</li>
+                    <li>ΔG decreases toward equilibrium</li>
+                </ul>
+            </div>
+
+            <h3>Important Relationships</h3>
+            <div class="example">
+                <h4>Free Energy and K</h4>
+                <ul>
+                    <li>ΔG° < 0: K> 1</li>
+                    <li>ΔG° = 0: K = 1</li>
+                    <li>ΔG° > 0: K < 1</li>
+                </ul>
+
+                <h4>Temperature Dependence</h4>
+                <ul>
+                    <li>K changes with temperature</li>
+                    <li>Related through van't Hoff equation</li>
+                    <li>ln(K₂/K₁) = -(ΔH°/R)(1/T₂ - 1/T₁)</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="important-note">
+            <strong>Key Concepts for AP Exam:</strong>
+            <ul>
+                <li>Understand entropy and its microscopic basis</li>
+                <li>Master free energy calculations and relationships</li>
+                <li>Know how to predict spontaneity</li>
+                <li>Understand connection between ΔG° and K</li>
+                <li>Be able to analyze temperature effects on processes</li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="#" class="top-button">Back to Top</a>
+</body>
+
+</html>

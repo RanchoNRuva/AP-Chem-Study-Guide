@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 5: Stoichiometry and Reactions - AP Chemistry Study Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid #3498db;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #bdc3c7;
+        }
+
+        h3 {
+            color: #7f8c8d;
+        }
+
+        .formula {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+            font-family: monospace;
+        }
+
+        ul,
+        ol {
+            padding-left: 2rem;
+        }
+
+        .important-note {
+            background-color: #f1c40f20;
+            padding: 1rem;
+            border-left: 4px solid #f1c40f;
+            margin: 1rem 0;
+        }
+
+        .back-home {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+
+        .back-home:hover {
+            background-color: #2980b9;
+        }
+
+        .top-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .top-button:hover {
+            background-color: #555;
+        }
+
+        .example {
+            background-color: #e8f6fe;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+
+        .equation {
+            text-align: center;
+            font-weight: bold;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th,
+        td {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#equations">Chemical Equations</a>
+        <a href="#calculations">Basic Calculations</a>
+        <a href="#stoich-relationships">Stoichiometric Relationships</a>
+        <a href="#reactions">Types of Reactions</a>
+    </nav>
+
+    <div class="content">
+        <a href="index.html" class="back-home">← Back to Main Page</a>
+
+        <h1>Unit 5: Stoichiometry and Reactions</h1>
+
+        <section id="equations">
+            <h2>Section 1: Chemical Equations and Conservation of Mass</h2>
+
+            <h3>Writing and Balancing Chemical Equations</h3>
+            <div class="important-note">
+                <h4>Components of a Chemical Equation</h4>
+                <ul>
+                    <li>Reactants → Products</li>
+                    <li>States of matter: (s), (l), (g), (aq)</li>
+                    <li>Coefficients indicate relative amounts</li>
+                </ul>
+
+                <h4>Balancing Steps</h4>
+                <ol>
+                    <li>Write unbalanced equation with correct formulas</li>
+                    <li>Count atoms of each element</li>
+                    <li>Add coefficients (never change subscripts)</li>
+                    <li>Verify equal atoms on both sides</li>
+                </ol>
+            </div>
+
+            <h3>Types of Equations</h3>
+            <div class="example">
+                <h4>1. Complete (Molecular)</h4>
+                <ul>
+                    <li>Shows full chemical formulas</li>
+                    <li>Includes state symbols</li>
+                    <li>Example: 2H₂(g) + O₂(g) → 2H₂O(l)</li>
+                </ul>
+
+                <h4>2. Ionic</h4>
+                <ul>
+                    <li>Shows dissolved ions</li>
+                    <li>Shows spectator ions</li>
+                    <li>Example: Na⁺(aq) + Cl⁻(aq) + Ag⁺(aq) + NO₃⁻(aq) → AgCl(s) + Na⁺(aq) + NO₃⁻(aq)</li>
+                </ul>
+
+                <h4>3. Net Ionic</h4>
+                <ul>
+                    <li>Omits spectator ions</li>
+                    <li>Shows only species that change</li>
+                    <li>Example: Ag⁺(aq) + Cl⁻(aq) → AgCl(s)</li>
+                </ul>
+            </div>
+
+            <h3>Conservation of Mass</h3>
+            <div class="important-note">
+                <h4>Macroscopic Level</h4>
+                <ul>
+                    <li>Total mass of reactants = Total mass of products</li>
+                    <li>No atoms created or destroyed</li>
+                </ul>
+
+                <h4>Atomic Level</h4>
+                <ul>
+                    <li>Number of each type of atom conserved</li>
+                    <li>Only bonds are rearranged</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="calculations">
+            <h2>Section 2: Basic Stoichiometric Calculations</h2>
+
+            <h3>Mass-Mole Relationships</h3>
+            <div class="formula">
+                <h4>Conversions</h4>
+                <ul>
+                    <li>Moles to mass: moles × molar mass</li>
+                    <li>Mass to moles: mass ÷ molar mass</li>
+                    <li>Atoms to moles: atoms ÷ Avogadro's number</li>
+                </ul>
+            </div>
+
+            <h3>Mass Percent Calculations</h3>
+            <div class="equation">
+                Mass % = (mass of element/total mass) × 100
+            </div>
+
+            <h3>Empirical and Molecular Formulas</h3>
+            <div class="example">
+                <h4>Determining Empirical Formula</h4>
+                <ol>
+                    <li>Convert mass % to mass</li>
+                    <li>Convert mass to moles</li>
+                    <li>Find simplest whole-number ratio</li>
+                </ol>
+
+                <h4>Molecular Formula</h4>
+                <ul>
+                    <li>Multiple of empirical formula</li>
+                    <li>Determined using molar mass</li>
+                    <li>Molecular formula = (Empirical formula)n</li>
+                </ul>
+            </div>
+
+            <h3>Combustion Analysis</h3>
+            <div class="important-note">
+                <ul>
+                    <li>Used to determine empirical formula</li>
+                    <li>Analyzes CO₂ and H₂O produced</li>
+                    <li>Calculate mass of C, H from products</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="stoich-relationships">
+            <h2>Section 3: Stoichiometric Relationships</h2>
+
+            <h3>Molar Ratios</h3>
+            <div class="example">
+                <h4>Using Balanced Equations</h4>
+                <ul>
+                    <li>Coefficients show molar ratios</li>
+                    <li>Used to convert between reactants/products</li>
+                    <li>Moles A × (moles B/moles A) = moles B</li>
+                </ul>
+            </div>
+
+            <h3>Limiting Reactant</h3>
+            <div class="important-note">
+                <ul>
+                    <li>Determines maximum product</li>
+                    <li>Reactant used up first</li>
+                    <li>Other reactants in excess</li>
+                </ul>
+            </div>
+
+            <h3>Theoretical vs Actual Yield</h3>
+            <div class="equation">
+                Theoretical: maximum possible product<br>
+                Actual: amount actually produced<br>
+                Percent yield = (actual/theoretical) × 100<br>
+                Percent error = |(actual - theoretical)/theoretical| × 100
+            </div>
+        </section>
+
+        <section id="reactions">
+            <h2>Section 4: Types of Reactions</h2>
+
+            <h3>Common Reaction Types</h3>
+            <div class="example">
+                <h4>1. Synthesis (Combination)</h4>
+                <ul>
+                    <li>A + B → AB</li>
+                    <li>Elements combine to form compound</li>
+                </ul>
+
+                <h4>2. Decomposition</h4>
+                <ul>
+                    <li>AB → A + B</li>
+                    <li>Compound breaks into elements/simpler compounds</li>
+                </ul>
+
+                <h4>3. Single Replacement</h4>
+                <ul>
+                    <li>A + BC → AC + B</li>
+                    <li>One element replaces another</li>
+                </ul>
+
+                <h4>4. Double Replacement (Metathesis)</h4>
+                <ul>
+                    <li>AB + CD → AD + CB</li>
+                    <li>Ions exchange partners</li>
+                </ul>
+
+                <h4>5. Combustion</h4>
+                <ul>
+                    <li>Substance + O₂ → CO₂ + H₂O (+ other oxides)</li>
+                    <li>Complete oxidation with oxygen</li>
+                </ul>
+            </div>
+
+            <h3>Evidence of Chemical Reactions</h3>
+            <div class="important-note">
+                <h4>Physical Signs</h4>
+                <ul>
+                    <li>Color change</li>
+                    <li>Gas formation (bubbles)</li>
+                    <li>Precipitate formation</li>
+                    <li>Temperature change</li>
+                    <li>Light/sound production</li>
+                </ul>
+
+                <h4>Chemical Evidence</h4>
+                <ul>
+                    <li>pH changes</li>
+                    <li>New compound formation</li>
+                    <li>Energy changes</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="important-note">
+            <strong>Key Concepts for AP Exam:</strong>
+            <ul>
+                <li>Master balancing equations and reaction types</li>
+                <li>Understand stoichiometric relationships</li>
+                <li>Be able to identify limiting reactants</li>
+                <li>Calculate theoretical and percent yields</li>
+                <li>Recognize evidence of chemical reactions</li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="#" class="top-button">Back to Top</a>
+</body>
+
+</html>
